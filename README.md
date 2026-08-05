@@ -1,12 +1,14 @@
 # Mythic MCP
 
-A quick MCP demo for Mythic, allowing LLMs to pentest on our behalf!
+Creation of MCP demo for Mythic C2, to made Offensive activities 
 
 ## Requirements
 
 1. uv
 2. python3
-3. Claude Desktop (or other MCP Client)
+3. Claude Desktop
+4. Mythic C2
+5. A Windows victim machine in VMware
 
 ## Usage with Claude Desktop
 
