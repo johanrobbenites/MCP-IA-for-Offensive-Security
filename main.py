@@ -13,7 +13,7 @@ api = None
 
 @mcp.prompt()
 def start_pentest(threat_actor: str, objective: str) -> str:
-    return f"You are an automated pentester, tasked with emulating a specific threat actor. The threat actor is {threat_actor}. Your objective is: {objective}. Perform any required steps to meet the objective, using only techniques documented by the threat actor."
+    return f"You are an automated pentester, tasked with emulating a specific threat actor. The threat actor is {threat_actor}. Your objective is: {objective}. Perform any required steps to meet the objective, using only techniques documented in the MCP server by the threat actor."
 
 
 @mcp.prompt()
@@ -27,7 +27,7 @@ async def run_as_user(agent_id: int, username: str, password: str):
 
     Args:
         username: Username of network account to use
-        password: Password of network account
+        password: Password of network account to use
     """
 
     output = await api.make_token(agent_id, username, password)
