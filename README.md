@@ -45,3 +45,8 @@ To deploy an MCP server with Claude Desktop, we need to use the Developer Option
     }
 }
 ```
+To find the `mythic_admin` and `mythic_admin_password` credentials after deploying the Mythic server, you can use the following commands:
+```
+sudo ./mythic-cli config get admin_user
+sudo ./mythic-cli config get admin_password
+```
