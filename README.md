@@ -50,3 +50,16 @@ To find the `mythic_admin` and `mythic_admin_password` credentials after deployi
 sudo ./mythic-cli config get admin_user
 sudo ./mythic-cli config get admin_password
 ```
+## How to Use
+
+Once you have an active session in C2 and have uploaded the configuration file to Claude, you can use `any prompt`. However, we recommend running a few verification prompts first to ensure that the connection between C2, Claude, and the MCP server is working correctly.
+
+#### Verify the available sessions 
+```
+How many sessions are currently available?
+```
+#### Verify the available commands
+
+```
+Which commands are available?
+```
